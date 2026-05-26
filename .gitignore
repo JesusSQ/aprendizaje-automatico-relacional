@@ -1,0 +1,59 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+ENV/
+
+# Distribución / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ---- Tests / coverage ----
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ---- Editores / IDEs ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- Sistema operativo ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- LaTeX (por si alguno compila en local) ----
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.bbl
+*.blg
+
+# ---- Específico del proyecto ----
+# Modelos serializados intermedios (el FINAL sí se sube)
+*.joblib
+!modelo_final/*.joblib
+
+# Cachés de cálculo pesado (opcional, lo explico abajo)
+*.cache
+.cache/
